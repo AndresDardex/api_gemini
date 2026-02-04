@@ -15,3 +15,4 @@ Ejemplo de conexión a Gemini con Python.
 ## Evidencia de ejecución
 
 ![Evidencia de ejecución](gemini-api\image.png)
+
