@@ -163,51 +163,6 @@ python app_gemini_copy.py
 Tokens consumidos en este intento: 312
 Costo de los tokens consumidos en este intento: $0.000936
 ```
-
----
-
-### `app_text_5.py` — Técnicas de prompting (Zero-shot / One-shot / Few-shot)
-
-Demuestra las tres técnicas principales de prompting para clasificación de sentimientos. El script trae los tres modos comentados; puedes activar el que quieras editando el archivo.
-
-```bash
-python app_text_5.py
-```
-
-**Modos disponibles dentro del script:**
-
-| Modo | Descripción |
-|---|---|
-| Zero-shot | El modelo clasifica sin ejemplos previos |
-| One-shot | Se le da un ejemplo de referencia |
-| Few-shot | Se le dan múltiples ejemplos estructurados |
-
-**Salida esperada (zero-shot):**
-```
-✅ Respuesta del modelo:
-------------------------------
-Negativo
-```
-
----
-
-### `app_text_6.py` — Lenguaje natural a SQL (Few-shot avanzado)
-
-Usa few-shot prompting para enseñarle al modelo el patrón de traducción y luego le hace una consulta nueva. El modelo responde directamente con la sentencia SQL correcta.
-
-```bash
-python app_text_6.py
-```
-
-**Salida esperada:**
-```
-✅ Respuesta del modelo:
-------------------------------
-SELECT correo FROM personas WHERE nombre = 'Juan Perez';
-```
-
----
-
 ## Evidencia de ejecución
 
 La siguiente captura muestra la ejecución exitosa de `app_gemini.py` conectándose al motor de Gemini y recibiendo respuesta:
